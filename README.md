@@ -10,7 +10,7 @@ Then find the driver_install.bat file in the iVCam installation folder (for exam
 
 If the execution of this file failed with some errors, you can also enter the iVCam installation folder at a Command Prompt running with administrator privileges, and run the following command to install the driver:
 
-devcon install driver\iVCam.inf iVCamDevice
+`devcon install driver\iVCam.inf iVCamDevice`
 
 Run it twice and you will have 3 iVCam drivers (including the default one). You can see them in system Device Manager application.
 
